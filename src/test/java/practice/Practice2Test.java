@@ -11,6 +11,8 @@ public class Practice2Test {
 	public void Cancellation()
 	{
 		System.out.println("Booking cancelled");
+		System.out.println("Full Booking cancelled");
+
 	}
 
 }
