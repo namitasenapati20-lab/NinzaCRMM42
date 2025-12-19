@@ -12,6 +12,8 @@ public class Practice2Test {
 	{
 		System.out.println("Booking cancelled");
 		System.out.println("Full Booking cancelled");
+		System.out.println("Cancellation can not b performed now");
+
 
 	}
 
