@@ -12,6 +12,8 @@ public class Practice1Test {
 	{
 		System.out.println("Oneway booking");
 		System.out.println("Multi seat booking");
+		System.out.println("Round Trip booking");
+
 
 		
 	}
