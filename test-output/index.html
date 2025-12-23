@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>RegressionSuite.xml</span>
+                    <span>SmokeSuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -103,7 +103,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="practice.Practice2Test" class="method navigator-link" hash-for-method="Cancellation">Cancellation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="practice.Practice1Test" class="method navigator-link" hash-for-method="Booking">Booking</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -121,14 +121,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">practice.Practice2Test</span>
+              <span class="class-name">practice.Practice1Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Cancellation">
-                  </a> <!-- Cancellation -->
-                  <span class="method-name">Cancellation</span>
+                  <a name="Booking">
+                  </a> <!-- Booking -->
+                  <span class="method-name">Booking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +136,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/namita/eclipse-workspace/GitHubPracticeM42/RegressionSuite.xml</span>
+            <span class="header-content">/home/namita/eclipse-workspace/GitHubPracticeM42/SmokeSuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,12 +145,12 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;regression&quot;/&gt;
+      &lt;include name=&quot;smoke&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;regression&quot;/&gt;
+      &lt;include name=&quot;smoke&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
@@ -181,10 +181,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">regression</span>
+              <span class="test-group-name">smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">Cancellation</span>
+                <span class="method-in-group-name">Booking</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -206,14 +206,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Cancellation')
-data.setCell(0, 2, 'practice.Practice2Test')
-data.setCell(0, 3, 18);
+data.setCell(0, 1, 'Booking')
+data.setCell(0, 2, 'practice.Practice1Test')
+data.setCell(0, 3, 7);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 ms</span>
+              <span class="suite-total-time">Total running time: 7 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -232,9 +232,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">practice.Practice1Test</span>
+              <span class="ignored-class-name">practice.Practice2Test</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">Booking</span>
+                <span class="ignored-method-name">Cancellation</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -246,9 +246,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">practice.Practice2Test</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">practice.Practice1Test</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Cancellation</span>
+                <span class="method-name">Booking</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
